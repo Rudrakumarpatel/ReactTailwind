@@ -1,0 +1,62 @@
+{
+  "Learning": [
+    {
+      "name": "History Introductory",
+      "content": "the study of past events, societies, cultures, and civilizations",
+      "image": "../images/Recommandation/History(p).jpg"
+    },
+    {
+      "name": "Geography Foundational",
+      "content": "the Earth's landscapes, environments, and human societies",
+      "image": "../images/Recommandation/History.jpg"
+    }
+  ],
+  "Something": [
+    {
+      "name": "Finance Foundational",
+      "content": "managing money, investments, and assets to maximize value and ensure financial stability",
+      "image": "../images/Recommandation/finance.jpg"
+    },
+    {
+      "name": "Business Introductory",
+      "content": "the activities involved in producing, buying, and selling goods or services to make a profit",
+      "image": "../images/Recommandation/business.jpg"
+    }
+  ],
+  "Exercising": [
+    {
+      "name": "Art Introductory",
+      "content": "the arts of making, painting, and drawing",
+      "image": "../images/Recommandation/art.jpg"
+    },
+    {
+      "name": "Music Foundational",
+      "content": "art of arranging sounds in time to produce a composition with melody, harmony",
+      "image": "../images/Recommandation/music.jpg"
+    }
+  ],
+  "Exploring": [
+    {
+      "name": "Chemistry Foundational",
+      "content": "the study of chemicals and their properties",
+      "image": "../images/Recommandation/chemisty.jpg"
+    },
+    {
+      "name": "Physics Introductory",
+      "content": "the study of matter and its properties",
+      "image": "../images/Recommandation/physics.jpg"
+    }
+  ],
+  "Refreshing": [
+    {
+      "name": "Basic Algebra Foundational",
+      "content": "the study of algebra deals with equations, variables,",
+      "image": "../images/Recommandation/Basic_Algebra.jpg"
+    },
+    {
+      "name": "Arithmetic Introductory",
+      "content": "basic mathematical operations like addition, subtraction etc.",
+      "image": "../images/Recommandation/Arithmetic.jpg"
+    }
+  ]
+}
