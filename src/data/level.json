@@ -1,0 +1,47 @@
+[
+  {
+    "Refreshing": " What is your math comfort level?",
+    "answers": [
+      { "text": "Arithmetic Introductory", "level": "Introductory" },
+      { "text": "Basic Algebra Foundational", "level": "Foundational" },
+      { "text": "Intermediate Algebra Intermediate", "level": "Intermediate" },
+      { "text": "Calculus Advanced", "level": "Advanced" }
+    ]
+  },
+  {
+    "Exploring": " What is your subject comfort level?",
+    "answers": [
+      { "text": "Physics Introductory", "level": "Introductory" },
+      { "text": "Chemistry Foundational", "level": "Foundational" },
+      { "text": "Biology Foundational", "level": "Foundational" },
+      { "text": "Computer Science Foundational", "level": "Foundational" }
+    ]
+  },
+  {
+    "Learning": " What is your history comfort level?",
+    "answers": [
+      { "text": "History Introductory", "level": "Introductory" },
+      { "text": "Geography Foundational", "level": "Foundational" },
+      { "text": "Politics Foundational", "level": "Foundational" },
+      { "text": "Philosophy Foundational", "level": "Foundational" }
+    ]
+  },
+  {
+    "Exercising": " What is your arts comfort level?",
+    "answers": [
+      { "text": "Art Introductory", "level": "Introductory" },
+      { "text": "Music Foundational", "level": "Foundational" },
+      { "text": "Photography Foundational", "level": "Foundational" },
+      { "text": "Visual Arts Foundational", "level": "Advanced" }
+    ]
+  },
+  {
+    "Something": " What is your business comfort level?",
+    "answers": [
+      { "text": "Business Introductory", "level": "Introductory" },
+      { "text": "Finance Foundational", "level": "Foundational" },
+      { "text": "Marketing Foundational", "level": "Foundational" },
+      { "text": "Operations Foundational", "level": "Foundational" }
+    ]
+  }
+]
