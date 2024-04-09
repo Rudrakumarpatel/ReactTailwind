@@ -31,7 +31,6 @@ function App() {
     <>
     <div>
     <MdOutlineKeyboardArrowLeft onClick={() => handleBack()} className={`cursor-pointer mt-14 w-7 h-7 ${progress >= 100 ? 'hidden' : 'block'}`}></MdOutlineKeyboardArrowLeft>
-    {/* } */}
         <div className=" bg-gray-200 rounded-full dark:bg-gray-700 ml-16 mr-16">
           {progress <= 100 && (
             <div
