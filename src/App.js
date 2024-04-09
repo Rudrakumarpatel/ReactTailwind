@@ -29,8 +29,8 @@ function App() {
 
   return (
     <>
-    <div>
-    <MdOutlineKeyboardArrowLeft onClick={() => handleBack()} className={`cursor-pointer mt-14 w-7 h-7 ${progress >= 100 ? 'hidden' : 'block'}`}></MdOutlineKeyboardArrowLeft>
+      <div>
+        <MdOutlineKeyboardArrowLeft onClick={() => handleBack()} className={`cursor-pointer mt-14 w-7 h-7 ${progress >= 100 ? 'hidden' : 'block'}`}></MdOutlineKeyboardArrowLeft>
         <div className=" bg-gray-200 rounded-full dark:bg-gray-700 ml-16 mr-16">
           {progress <= 100 && (
             <div
@@ -39,7 +39,7 @@ function App() {
                 width: `${progress}%`,
               }}
             ></div>
-          ) 
+          )
           }
         </div>
       </div>
@@ -50,7 +50,7 @@ function App() {
         <Route path="Interest/:name/Insideinterest/:interest" element={<Insideinterest progress={progress} setprogress={setProgress}></Insideinterest>} />
         <Route path="Interest/:name/Insideinterest/:interest/Level/:interest" element={<Level progress={progress} setprogress={setProgress}></Level>} />
         <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/feedback/:level" element={<Feedback progress={progress} setprogress={setProgress}></Feedback>} />
-        <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/feedback/:level/Loading" element={<Loadingpage/>} />
+        <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/feedback/:level/Loading" element={<Loadingpage />} />
         <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/feedback/:level/Loading/Recommend" element={<Recommendations progress={progress} setprogress={setProgress}></Recommendations>} />
       </Routes>
     </>
