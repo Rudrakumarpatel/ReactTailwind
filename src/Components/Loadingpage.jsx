@@ -7,9 +7,10 @@ function Loadingpage() {
 
   useEffect(() => {
     setTimeout(() => {
+      console.log("hello");
       history("Recommend");
     }, 2000);
-  });
+  },[history]);
 
   return (
     <div className="h-[80vh] justify-center flex flex-col">

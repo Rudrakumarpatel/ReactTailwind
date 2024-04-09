@@ -32,7 +32,7 @@ function Feedback({ progress, setprogress }) {
         >
           <button
             onClick={() => {
-              localStorage.setItem("progress", progress + 22);
+              localStorage.removeItem('progress');
               return setprogress(progress + 22);
             }}
             className="text-white w-full h-full"

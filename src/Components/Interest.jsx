@@ -15,7 +15,7 @@ function Intereste({ progress, setprogress }) {
 
   const handleDescribes = (interest) => {
     setinterest(interest);
-    setClick(!click);
+    setClick(true);
   };
 
   return (
