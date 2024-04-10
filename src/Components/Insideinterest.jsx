@@ -32,7 +32,8 @@ function Insideinterest({ progress, setprogress }) {
             }
             alt="images"
           />
-          <div className="p-6 ml-10 flex justify-center items-center flex-wrap text-center 
+          <div className="pt-6 flex xl:ml-24
+          lg:ml-16 justify-center items-center flex-wrap text-center 
           xl:w-50 xl:h-50 lg:w-45 lg:h-45 lg:flex-wrap xxl:flex xxl:flex-col xxl:ml-60">
             <h1 className="lg:text-4xl sm:text-3xl sm:font-bold font-bold
             xsm:text-xl xsm:font-bold ">You're in the right place</h1>

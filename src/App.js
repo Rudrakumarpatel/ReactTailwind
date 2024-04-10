@@ -5,7 +5,7 @@ import Intereste from "./Components/Interest";
 import Insideinterest from "./Components/Insideinterest";
 import Level from "./Components/Level";
 import Recommendations from "./Components/Recommendations";
-import Feedback from "./Components/Feedback";
+import Feedback from "./Components/Details";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { Route, Routes, useNavigate } from "react-router";
 import Loadingpage from "./Components/Loadingpage";
@@ -49,9 +49,9 @@ function App() {
         <Route path="/Interest/:name" element={<Intereste progress={progress} setprogress={setProgress}></Intereste>} />
         <Route path="Interest/:name/Insideinterest/:interest" element={<Insideinterest progress={progress} setprogress={setProgress}></Insideinterest>} />
         <Route path="Interest/:name/Insideinterest/:interest/Level/:interest" element={<Level progress={progress} setprogress={setProgress}></Level>} />
-        <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/feedback/:level" element={<Feedback progress={progress} setprogress={setProgress}></Feedback>} />
-        <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/feedback/:level/Loading" element={<Loadingpage />} />
-        <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/feedback/:level/Loading/Recommend" element={<Recommendations progress={progress} setprogress={setProgress}></Recommendations>} />
+        <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/Details/:level" element={<Feedback progress={progress} setprogress={setProgress}></Feedback>} />
+        <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/Details/:level/Loading" element={<Loadingpage />} />
+        <Route path="Interest/:name/Insideinterest/:interest/Level/:interest/Details/:level/Loading/Recommend" element={<Recommendations progress={progress} setprogress={setProgress}></Recommendations>} />
       </Routes>
     </>
   )

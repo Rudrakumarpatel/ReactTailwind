@@ -61,7 +61,7 @@ const Level = ({ progress, setprogress }) => {
       </div>
       {click ? (
         <Link
-          to={`feedback/${l}`}
+          to={`Details/${l}`}
           className=" bg-blue-500 size-28 h-8 flex justify-center items-center hover:bg-blue-600 button text-white p-5 mt-8 rounded-lg"
         >
           <button
